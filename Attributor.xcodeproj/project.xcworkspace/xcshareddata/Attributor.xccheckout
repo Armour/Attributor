@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>39B0D035-B806-47C3-A702-0722D6AF9D13</string>
+	<key>IDESourceControlProjectName</key>
+	<string>Attributor</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>977DA564A16A15E9205EBFB4A624AA0251CB2FFB</key>
+		<string>https://github.com/Armour/Attributor</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>Attributor.xcodeproj</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>977DA564A16A15E9205EBFB4A624AA0251CB2FFB</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/Armour/Attributor</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>977DA564A16A15E9205EBFB4A624AA0251CB2FFB</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>977DA564A16A15E9205EBFB4A624AA0251CB2FFB</string>
+			<key>IDESourceControlWCCName</key>
+			<string>Attributor</string>
+		</dict>
+	</array>
+</dict>
+</plist>
