@@ -15,6 +15,7 @@
 		76A713E01AB3127900C3081C /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 76A713DF1AB3127900C3081C /* Images.xcassets */; };
 		76A713E31AB3127900C3081C /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 76A713E11AB3127900C3081C /* LaunchScreen.xib */; };
 		76A713EF1AB3127900C3081C /* AttributorTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 76A713EE1AB3127900C3081C /* AttributorTests.m */; };
+		76E082861AE4C40500E9C796 /* TextStatusViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 76E082851AE4C40500E9C796 /* TextStatusViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -42,6 +43,8 @@
 		76A713E81AB3127900C3081C /* AttributorTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AttributorTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		76A713ED1AB3127900C3081C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		76A713EE1AB3127900C3081C /* AttributorTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AttributorTests.m; sourceTree = "<group>"; };
+		76E082841AE4C40500E9C796 /* TextStatusViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TextStatusViewController.h; sourceTree = "<group>"; };
+		76E082851AE4C40500E9C796 /* TextStatusViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TextStatusViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -87,6 +90,8 @@
 				76A713D41AB3127900C3081C /* AppDelegate.m */,
 				76A713D91AB3127900C3081C /* ViewController.h */,
 				76A713DA1AB3127900C3081C /* ViewController.m */,
+				76E082841AE4C40500E9C796 /* TextStatusViewController.h */,
+				76E082851AE4C40500E9C796 /* TextStatusViewController.m */,
 				76A713DC1AB3127900C3081C /* Main.storyboard */,
 				76A713DF1AB3127900C3081C /* Images.xcassets */,
 				76A713E11AB3127900C3081C /* LaunchScreen.xib */,
@@ -225,6 +230,7 @@
 				76A713D51AB3127900C3081C /* AppDelegate.m in Sources */,
 				76A713D81AB3127900C3081C /* Attributor.xcdatamodeld in Sources */,
 				76A713DB1AB3127900C3081C /* ViewController.m in Sources */,
+				76E082861AE4C40500E9C796 /* TextStatusViewController.m in Sources */,
 				76A713D21AB3127900C3081C /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -348,6 +354,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = Attributor/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -358,6 +365,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = Attributor/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -416,6 +424,7 @@
 				76A713F41AB3127900C3081C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		76A713F51AB3127900C3081C /* Build configuration list for PBXNativeTarget "AttributorTests" */ = {
 			isa = XCConfigurationList;
@@ -424,6 +433,7 @@
 				76A713F71AB3127900C3081C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 

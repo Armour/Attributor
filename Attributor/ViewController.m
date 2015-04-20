@@ -7,6 +7,7 @@
 //
 
 #import "ViewController.h"
+#import "TextStatusViewController.h"
 
 @interface ViewController ()
 
@@ -18,6 +19,15 @@
 
 
 @implementation ViewController
+
+- (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender {
+    if ([segue.identifier isEqualToString:@"showStatus"]) {
+        if ([segue.destinationViewController isKindOfClass:[TextStatusViewController class]]) {
+            TextStatusViewController *tsvc = (TextStatusViewController *)segue.destinationViewController;
+            tsvc.textToAnalyze = self.body.textStorage;
+        }
+    }
+}
 
 - (void)viewDidLoad {
     [super viewDidLoad];
