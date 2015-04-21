@@ -16,6 +16,8 @@
 		76A713E31AB3127900C3081C /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 76A713E11AB3127900C3081C /* LaunchScreen.xib */; };
 		76A713EF1AB3127900C3081C /* AttributorTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 76A713EE1AB3127900C3081C /* AttributorTests.m */; };
 		76E082861AE4C40500E9C796 /* TextStatusViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 76E082851AE4C40500E9C796 /* TextStatusViewController.m */; };
+		76E082891AE55B4700E9C796 /* PlayingCardView.m in Sources */ = {isa = PBXBuildFile; fileRef = 76E082881AE55B4700E9C796 /* PlayingCardView.m */; };
+		76E0828F1AE5FD0600E9C796 /* DrawViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 76E0828E1AE5FD0600E9C796 /* DrawViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,6 +47,10 @@
 		76A713EE1AB3127900C3081C /* AttributorTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AttributorTests.m; sourceTree = "<group>"; };
 		76E082841AE4C40500E9C796 /* TextStatusViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TextStatusViewController.h; sourceTree = "<group>"; };
 		76E082851AE4C40500E9C796 /* TextStatusViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TextStatusViewController.m; sourceTree = "<group>"; };
+		76E082871AE55B4700E9C796 /* PlayingCardView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PlayingCardView.h; sourceTree = "<group>"; };
+		76E082881AE55B4700E9C796 /* PlayingCardView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PlayingCardView.m; sourceTree = "<group>"; };
+		76E0828D1AE5FD0600E9C796 /* DrawViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DrawViewController.h; sourceTree = "<group>"; };
+		76E0828E1AE5FD0600E9C796 /* DrawViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DrawViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -93,6 +99,10 @@
 				76E082841AE4C40500E9C796 /* TextStatusViewController.h */,
 				76E082851AE4C40500E9C796 /* TextStatusViewController.m */,
 				76A713DC1AB3127900C3081C /* Main.storyboard */,
+				76E0828D1AE5FD0600E9C796 /* DrawViewController.h */,
+				76E0828E1AE5FD0600E9C796 /* DrawViewController.m */,
+				76E082871AE55B4700E9C796 /* PlayingCardView.h */,
+				76E082881AE55B4700E9C796 /* PlayingCardView.m */,
 				76A713DF1AB3127900C3081C /* Images.xcassets */,
 				76A713E11AB3127900C3081C /* LaunchScreen.xib */,
 				76A713D61AB3127900C3081C /* Attributor.xcdatamodeld */,
@@ -228,6 +238,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				76A713D51AB3127900C3081C /* AppDelegate.m in Sources */,
+				76E082891AE55B4700E9C796 /* PlayingCardView.m in Sources */,
+				76E0828F1AE5FD0600E9C796 /* DrawViewController.m in Sources */,
 				76A713D81AB3127900C3081C /* Attributor.xcdatamodeld in Sources */,
 				76A713DB1AB3127900C3081C /* ViewController.m in Sources */,
 				76E082861AE4C40500E9C796 /* TextStatusViewController.m in Sources */,
