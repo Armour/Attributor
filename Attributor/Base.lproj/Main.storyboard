@@ -201,6 +201,11 @@
                             <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="3Al-tz-slB" customClass="PlayingCardView">
                                 <rect key="frame" x="89" y="173" width="197" height="321"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <gestureRecognizers/>
+                                <connections>
+                                    <outletCollection property="gestureRecognizers" destination="3Y9-Dp-bR9" appends="YES" id="V5F-NO-jVl"/>
+                                    <outletCollection property="gestureRecognizers" destination="Rth-k3-Ujx" appends="YES" id="XjM-lt-Qx5"/>
+                                </connections>
                             </view>
                         </subviews>
                         <color key="backgroundColor" red="0.0" green="0.50196081400000003" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
@@ -212,6 +217,16 @@
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="629-N4-6GY" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <swipeGestureRecognizer direction="left" id="3Y9-Dp-bR9">
+                    <connections>
+                        <action selector="swipe_double:" destination="s3c-vy-rfE" id="W5g-tS-1CY"/>
+                    </connections>
+                </swipeGestureRecognizer>
+                <swipeGestureRecognizer direction="right" id="Rth-k3-Ujx">
+                    <connections>
+                        <action selector="swipe:" destination="s3c-vy-rfE" id="u9t-bj-EJq"/>
+                    </connections>
+                </swipeGestureRecognizer>
             </objects>
             <point key="canvasLocation" x="796.5" y="1199.5"/>
         </scene>

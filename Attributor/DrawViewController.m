@@ -17,10 +17,19 @@
 
 @implementation DrawViewController
 
+- (IBAction)swipe:(UISwipeGestureRecognizer *)sender {
+    self.playingCardView.faceup = !self.playingCardView.faceup;
+}
+
+- (IBAction)swipe_double:(UISwipeGestureRecognizer *)sender {
+    self.playingCardView.faceup = !self.playingCardView.faceup;
+}
+
 - (void)viewDidLoad {
     [super viewDidLoad];
     self.playingCardView.rank = 13;
     self.playingCardView.suit = @"♥️";
+    [self.playingCardView addGestureRecognizer:[[UIPinchGestureRecognizer alloc] initWithTarget:self.playingCardView action:@selector(pinch:)]];
 }
 
 @end
