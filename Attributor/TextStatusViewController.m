@@ -32,8 +32,8 @@
 }
 
 - (void)updateUI {
-    self.coloredCharLabel.text = [NSString stringWithFormat:@"%d colored characters", [[self charactersWithAttribute:NSForegroundColorAttributeName] length]];
-    self.outlineCharLabel.text = [NSString stringWithFormat:@"%d outlined characters", [[self charactersWithAttribute:NSStrokeWidthAttributeName] length]];
+    self.coloredCharLabel.text = [NSString stringWithFormat:@"%lu colored characters", (unsigned long)[[self charactersWithAttribute:NSForegroundColorAttributeName] length]];
+    self.outlineCharLabel.text = [NSString stringWithFormat:@"%lu outlined characters", (unsigned long)[[self charactersWithAttribute:NSStrokeWidthAttributeName] length]];
 }
 
 - (NSAttributedString *) charactersWithAttribute:(NSString *)attributeName {
@@ -53,14 +53,5 @@
 
     return character;
 }
-/*
-#pragma mark - Navigation
-
-// In a storyboard-based application, you will often want to do a little preparation before navigation
-- (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender {
-    // Get the new view controller using [segue destinationViewController].
-    // Pass the selected object to the new view controller.
-}
-*/
 
 @end
